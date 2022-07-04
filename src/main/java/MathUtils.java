@@ -8,7 +8,7 @@ public class MathUtils {
     }
 
     public static double asDoubleValue(BigDecimal bigValue) {
-        if (bigValue = null) {
+        if (bigValue == null) {
             return 0.0;
         } else {
             return bigValue.doubleValue();
